@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 # Vanessa McGuire
 
 ## Purpose
