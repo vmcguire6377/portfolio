@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+
 }
 body {
-    background-color: gray;
+    background-color: lightpink;
 }
 
 /* HEADER / NAV BAR STYLES START */
 .header {
     padding: 20px 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:pink;
+    padding-bottom: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    background-color:lightpink;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -20,7 +22,9 @@ body {
     top: 0;
     color: rgb(58, 54, 54);
     background-position: center;
+  
 }
+
 
 .header h1 {
     display: inline-block;
@@ -36,7 +40,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 .header nav ul {
@@ -51,37 +55,76 @@ body {
     display: inline-block;
     margin-left: 25px;
     background: pink;
-  color: rgb(58, 54, 54);
-  border-radius: 15px;
-  text-shadow: none;
+    color: rgb(58, 54, 54);
+    border-radius: 15px;
+    text-shadow: none;
 }
+
+header nav ul li a {
+    color: rgb(58, 54, 54);
+    border-radius: 15px;
+    text-shadow: none;
+  }
 
 /* HEADER / NAVE BAR STYLES END */
 
 h2 {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: heavy;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content {
-    margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 80%;
     float: right;
-    padding: 50px;
     height: 315px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(58, 54, 54);
-}
-h4 {
-margin: 30px;
-}
-p {
-    margin: 30px;
+    background-image: url('../img/escher.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    padding-bottom: 35px;
 }
 
+.aboutme p {
+    font-size: 20px;
+    margin: 15px, 10, 0, 10;
+    padding-bottom: 35px;
+}
 
+.aboutme h2 {
+    font-size: 28px;
+    font-weight: heavy;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+.hero {
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.work p {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+.work img {
+    width: 20%;
+    height: 300px;
+}
+
+.contact {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+.resume {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
 /* FOOTER STYLES START */
 footer {
     background: pink;
@@ -98,3 +141,8 @@ footer {
       margin: 0;
   }
 
+  /* FOOTER STYLES END */
+
+
+      
+  
