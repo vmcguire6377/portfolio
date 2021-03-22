@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
     padding: 0;
-
 }
+
 body {
     background-color: lightpink;
 }
@@ -25,7 +25,6 @@ body {
   
 }
 
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -43,6 +42,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 .header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -67,12 +67,20 @@ header nav ul li a {
   }
 
 /* HEADER / NAVE BAR STYLES END */
+h1 {
+    font-size: 28px;
+    font-weight: heavy;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
 
 h2 {
     font-size: 28px;
     font-weight: heavy;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .content {
@@ -107,15 +115,20 @@ h2 {
     padding-bottom: 35px;
 }
 
+/* WORK STYLES START */
+
 .work p {
     font-size: 20px;
-    padding-bottom: 35px;
-}
-.work img {
-    width: 20%;
-    height: 300px;
+    padding-bottom: 15px;
 }
 
+.work {
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+/* WORK STYLES END */
 .contact {
     font-size: 20px;
     padding-bottom: 35px;
@@ -125,21 +138,22 @@ h2 {
     font-size: 20px;
     padding-bottom: 35px;
 }
+
 /* FOOTER STYLES START */
 footer {
     background: pink;
-    padding: 40px 35px;
+    padding: 40px, 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-  }
+}
 
-  footer h4 {
-      color:rgb(58, 54, 54);
-      font-size: 30px;
-      margin: 0;
-  }
+footer h4 {
+    color:rgb(58, 54, 54);
+    font-size: 30px;
+    margin: 0;
+}
 
   /* FOOTER STYLES END */
 
