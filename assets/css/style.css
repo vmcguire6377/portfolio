@@ -9,8 +9,8 @@ body {
 
 /* HEADER / NAV BAR STYLES START */
 .header {
-    padding: 20px 35px;
-    padding-bottom: 35px;
+    padding: 20px 15px;
+    padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:italic;
     background-color: orchid;
@@ -84,6 +84,7 @@ h2 {
 }
 
 .content {
+    flex-wrap: nowrap;
     margin-bottom: 50px;
     width: 80%;
     float: right;
@@ -93,7 +94,6 @@ h2 {
     background-image: url('../img/escher.jpg');
     background-size: cover;
     background-position: center;
-    width: 1200px;
     padding-bottom: 35px;
 }
 
@@ -111,7 +111,7 @@ h2 {
 }
  
 .hero {
-    width: 100%;
+    width: 20%;
     padding-bottom: 35px;
 }
 
@@ -136,6 +136,8 @@ h2 {
 }
 
 /* WORK STYLES END */
+
+
 .contact {
     font-size: 20px;
     padding-bottom: 35px;
@@ -169,7 +171,6 @@ footer h4 {
     header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative;
     }
     
     header h1 {
@@ -184,11 +185,95 @@ footer h4 {
     }
       
     header nav ul li a {
-        font-size: 20px;
+        font-size: 48px;
+    }
+
+    .aboutme p {
+        font-size: 48px;
+    }
+
+    .work {
+        font-size: 48px;
     }
    
+    .work p {
+        font-size: 48px;
+    }
+
+    .contact {
+        font-size: 48px;
+    }
+
+    .resume {
+        font-size: 48px;
+    }
+
     footer h4, footer div {
        text-align: center;
        width: 100%;
+       font-size: 48px;
     }
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px, 15px;
+    }
+      
+  .work {
+      flex: 1 100%;
+      text-align: center;
+  }
+  
+  .work img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        width: 100%;
+      }
+      
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+
+      header nav ul li a {
+        font-size: 60px;
+    }
+
+    .aboutme p {
+        font-size: 60px;
+    }
+
+    .work {
+        font-size: 60px;
+    }
+   
+    .work p {
+        font-size: 60px;
+    }
+
+    .contact {
+        font-size: 60px;
+    }
+
+    .resume {
+        font-size: 60px;
+    }
+
+    footer h4, footer div {
+       text-align: center;
+       width: 100%;
+       font-size: 60px;
+    }
+}
+
