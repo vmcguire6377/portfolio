@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: orchid;
+    background-color: rgb(240, 199, 238);
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -13,7 +13,7 @@ body {
     padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:italic;
-    background-color: orchid;
+    background-color: rgb(240, 199, 238);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -54,7 +54,6 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    background: orchid;
     color: rgb(58, 54, 54);
     border-radius: 15px;
     text-shadow: none;
@@ -150,7 +149,7 @@ h2 {
 
 /* FOOTER STYLES START */
 footer {
-    background: orchid;
+    background: rgb(141, 129, 140);
     padding: 40px, 35px;
     display: flex;
     justify-content: space-between;
