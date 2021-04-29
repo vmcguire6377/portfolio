@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(240, 199, 238);
+    background: linear-gradient(100DEG, rgba(73, 88, 175, 0.4), rgba(73, 88, 175, 0.4), rgb(248, 178, 221), rgb(190, 250, 232),rgba(73, 88, 175, 0.4),   teal);;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -13,7 +13,8 @@ body {
     padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:italic;
-    background-color: rgb(240, 199, 238);
+    height: 50px;
+    background-color: rgb(127, 160, 250);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -37,6 +38,7 @@ body {
 
 .header nav {
     padding-top: 15px;
+    margin-bottom: 30px;
     margin-right: 20px;
     float: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,29 +51,41 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin-bottom: -50px;
 }
 
-.header nav ul li {
-    display: inline-block;
+.header nav ul li button {
+    width: 130px;
+    display:inline-block;
     margin-left: 25px;
-    color: rgb(58, 54, 54);
+    margin-bottom: -50px;
+    color: teal;
     border-radius: 15px;
-    text-shadow: none;
+    text-shadow: 2px;
+    background-color: rgb(136, 136, 136);
+    position: sticky;
+    
+    
+}
+.header nav ul li button:hover {
+    background-color: whitesmoke;
 }
 
 header nav ul li a {
-    color: rgb(58, 54, 54);
+    color: white;
     border-radius: 15px;
-    text-shadow: none;
+    text-shadow: white;
+    font-weight: bolder;
   }
 
 /* HEADER / NAVE BAR STYLES END */
-h1 {
+.header h1 {
     font-size: 28px;
     font-weight: heavy;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
+    padding: -35px;
 }
 
 h2 {
@@ -90,7 +104,7 @@ h2 {
     height: 315px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(58, 54, 54);
-    background-image: url('../img/escher.jpg');
+    background-image: url('../img/Devimg.JPG');
     background-size: cover;
     background-position: center;
     padding-bottom: 35px;
@@ -102,11 +116,12 @@ h2 {
     padding-bottom: 15px;
 }
 
-.aboutme h2 {
+.aboutme h1 {
     font-size: 28px;
     font-weight: heavy;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
 }
  
 .hero {
@@ -121,10 +136,12 @@ h2 {
     padding-bottom: 15px;
 }
 
-.work {
-    font-size: 20px;
-    padding-bottom: 15px;
-    font-weight: bold;
+.work h1 {
+    font-size: 28px;
+    font-weight: heavy;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
 }
 
 .work {
@@ -133,13 +150,20 @@ h2 {
     justify-content: space-between;
     width:80%;
 }
+.work img {
+    border-radius: 15px;
+    margin-right: 5px;
+}
 
 /* WORK STYLES END */
 
 
-.contact {
-    font-size: 20px;
-    padding-bottom: 35px;
+.contact h2 {
+    font-size: 28px;
+    font-weight: heavy;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
 }
 
 .resume {
@@ -149,7 +173,7 @@ h2 {
 
 /* FOOTER STYLES START */
 footer {
-    background: rgb(141, 129, 140);
+    background: rgb(127, 160, 250);
     padding: 40px, 35px;
     display: flex;
     justify-content: space-between;
@@ -158,8 +182,8 @@ footer {
 }
 
 footer h4 {
-    color:rgb(58, 54, 54);
-    font-size: 30px;
+    color:black;
+    font-size: 24px;
     margin: 0;
 }
 
