@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(100DEG, rgba(73, 88, 175, 0.4), rgba(73, 88, 175, 0.4), rgb(248, 178, 221), rgb(190, 250, 232),rgba(73, 88, 175, 0.4),   teal);;
+    background: linear-gradient(to bottom right, blue, white);
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -99,9 +99,9 @@ h2 {
 .content {
     flex-wrap: nowrap;
     margin-bottom: 50px;
-    width: 80%;
+    width: 90%;
     float: right;
-    height: 315px;
+    height: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(58, 54, 54);
     background-image: url('../img/Devimg.JPG');
