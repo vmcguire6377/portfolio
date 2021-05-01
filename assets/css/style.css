@@ -153,6 +153,11 @@ h2 {
 .work img {
     border-radius: 15px;
     margin-right: 5px;
+    margin-bottom: 15px;
+}
+.work article {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* WORK STYLES END */
