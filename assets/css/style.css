@@ -266,11 +266,11 @@ footer h4 {
 @media screen and (max-width: 575px) {
     header {
         padding-bottom: 0;
-        width: 100%;
+        width: 90%;
       }
       
       header h1 {
-        width: 100%;
+        width: 90%;
         text-align: center;
       }
 
@@ -278,25 +278,30 @@ footer h4 {
         font-size: 60px;
     }
 
+    .img {
+        text-align: center;
+    }
+
     .aboutme p {
-        font-size: 60px;
+        text-align: center;
     }
 
     .work {
-        font-size: 60px;
+        text-align: center;
     }
    
     .work p {
-        font-size: 60px;
+        text-align: center;
     }
 
     .contact {
-        font-size: 60px;
+        text-align: center;
     }
 
     .resume {
-        font-size: 60px;
+        text-align: center;
     }
+    
 
     footer h4, footer div {
        text-align: center;
@@ -305,3 +310,10 @@ footer h4 {
     }
 }
 
+      
+         
+  
+  
+  
+  
+  
