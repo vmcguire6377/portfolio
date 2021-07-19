@@ -274,9 +274,7 @@ footer h4 {
         text-align: center;
       }
 
-      header nav ul li a {
-        font-size: 60px;
-    }
+      
 
     .img {
         text-align: center;
@@ -305,8 +303,7 @@ footer h4 {
 
     footer h4, footer div {
        text-align: center;
-       width: 100%;
-       font-size: 60px;
+       width: 90%;
     }
 }
 
